@@ -32,12 +32,16 @@ main {
   padding: 20px;
 }
 
-section {
+.hero {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 50px;
   margin-bottom: 30px;
 }
 
-h1, h2, h3 {
-  color: #333;
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
 }
 
 .button {
@@ -47,4 +51,37 @@ h1, h2, h3 {
   color: #fff;
   text-decoration: none;
   border-radius: 4px;
+}
+
+.destinations {
+  margin-bottom: 30px;
+}
+
+.destination {
+  display: inline-block;
+  width: 30%;
+  margin-right: 20px;
+  vertical-align: top;
+}
+
+.destination img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.destination h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.destination p {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
 }
